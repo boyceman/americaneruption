@@ -151,6 +151,14 @@ h1 .br{color:#ded4a2;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;fon
   .menu button,.menu a.mbtn{margin:12px auto 0;}
   .steam{position:static;margin:20px auto 0;align-items:center;}
 }
+@media (max-height:560px){
+  .frame{height:auto;min-height:100dvh;}
+  .scene{flex-direction:column;justify-content:flex-start;padding:14px 0 22px;}
+  .stack{margin-top:10px;}
+  .menu{position:static;margin:18px auto 0;text-align:center;}
+  .steam{position:static;margin:16px auto 0;align-items:center;}
+  .bar{flex:0 0 30px;}
+}
 
 .menu button img,.menu a.mbtn img,.steam a img{transition:filter .12s ease,transform .12s ease;}
 .menu button:hover img,.menu a.mbtn:hover img,.menu button:focus-visible img,.menu a.mbtn:focus-visible img,.steam a:hover img,.steam a:focus-visible img{filter:brightness(1.45);}
